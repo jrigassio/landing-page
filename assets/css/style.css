@@ -1,0 +1,141 @@
+.container{
+	width: 100%;
+	height: 100%;
+	background-color: #f5fbff;
+}
+/*#f5fbff*/
+/*#E4F1FE*/
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+ 
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #336E7B; 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #336E7B; 
+}
+
+#nav-items-container{
+	position: absolute;
+	top: 680px;
+}
+#nav-items{
+	list-style-type: none;
+	text-align: center;
+	overflow: hidden;
+	position: relative;
+	padding: 3%;
+	left: -2%;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: -10%
+}
+
+.nav-item{
+	outline: #007AFF dotted thin;
+	color: black;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+	margin-top: 4%;
+	margin-bottom: 4%;
+	font-family: 'Roboto', sans-serif;
+
+}
+#navbar-container{
+	margin-right: 75%;
+	z-index: 300;
+}
+.quote{
+	position: absolute;
+	top: 480px;
+	right: 100px;
+	font-size: 32px;
+	font-family: "Comfortaa"
+	/*z-index: 100;*/
+}
+
+#title-text{
+	font-weight: bold;
+	font-family: 'Comfortaa', cursive;
+	margin-bottom: 2%;
+}
+#navbar li{
+	display: inline;
+	font-family: 'Comfortaa';
+	margin-left: 4%;
+	margin-right: 4%;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+}
+
+#navbar li:hover{
+	color: #1F3A93;
+	font-weight: bolder;
+	font-style: italic;
+
+}
+
+.berkeley{
+	position:relative;
+	z-index: 100;
+	opacity: 0.6;
+}
+
+#overlay{
+	position: relative;
+	background-color: black;
+	height: 100%;
+	width: 100%;
+	z-index: 50;
+	opacity: 1;
+}
+
+.greeting{
+	position: absolute;
+	top: 22%;
+	left: 36%;
+	z-index: 200;
+	display: inline-block;
+	font-size: 48px;
+	color: white;
+	font-family: 'Comfortaa', cursive;
+}
+
+.subtitle{
+	position: absolute;
+	top:33%;
+	left: 40.5%;
+	z-index: 200;
+	color: white;
+	font-family: 'Comfortaa';
+
+}
+
+body{
+	margin: 0px;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+}
+
+/*FONTS :
+
+font-family: 'Roboto', sans-serif;
+
+font-family: 'Comfortaa', cursive;
+
+*/
