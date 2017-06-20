@@ -1,36 +1,29 @@
-.container{
-	width: 100%;
-	height: 100%;
-	background-color: #f5fbff;
-}
-/*#f5fbff*/
-/*#E4F1FE*/
-
 ::-webkit-scrollbar {
     width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     -webkit-border-radius: 10px;
     border-radius: 10px;
 }
- 
+
 ::-webkit-scrollbar-thumb {
     -webkit-border-radius: 10px;
     border-radius: 10px;
-    background: #336E7B; 
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    background: #336E7B;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
-	background: #336E7B; 
+	background: #336E7B;
 }
 
 #nav-items-container{
 	position: absolute;
 	top: 680px;
 }
+
 #nav-items{
 	list-style-type: none;
 	text-align: left;
@@ -99,26 +92,28 @@
 }
 
 .berkeley{
-	position:relative;
+	position: relative;
+	width: 100%;
 	z-index: 100;
-	opacity: 0.6;
+	opacity: 0.7;
 }
 
-#overlay{
+.overlay{
 	position: relative;
-	background-color: black;
-	height: 100%;
 	width: 100%;
+	height:100%;
+	background-color: black;
+	align-items: center;
 	z-index: 50;
 	opacity: 1;
 }
 
 .greeting{
 	position: absolute;
-	top: 22%;
-	left: 36%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	z-index: 200;
-	display: inline-block;
 	font-size: 48px;
 	color: white;
 	font-family: 'Comfortaa', cursive;
@@ -126,8 +121,10 @@
 
 .subtitle{
 	position: absolute;
-	top:33%;
-	left: 40.5%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 200%);
+	/*transform: translateX(100%);*/
 	z-index: 200;
 	color: white;
 	font-family: 'Comfortaa';
@@ -135,7 +132,9 @@
 }
 
 body{
-	margin: 0px;
+	margin: 0;
+	padding: 0;
+	background-color: #f5fbff;
 }
 
 .sticky{
