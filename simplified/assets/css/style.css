@@ -1,0 +1,13 @@
+body {
+  background-color: #636e72;
+}
+
+#page{
+  position: absolute;
+  top: 20%; left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: white;
+  padding: 5%;
+  width: 50%;
+  border-radius: 25px;
+}
