@@ -4,10 +4,22 @@ body {
 
 #page{
   position: absolute;
-  top: 40%; left: 50%;
+  top: 30%; left: 50%;
   transform: translate(-50%,-50%);
-  background-color: white;
+  background-color: #f3f3f3;
   padding: 5%;
-  width: 50%;
+  width: 45%;
   border-radius: 25px;
+}
+.mainDetails{
+  width:100%;
+}
+#headshot{
+  float: left;
+}
+#name{
+  float:center;
+}
+#details{
+  float: right;
 }
