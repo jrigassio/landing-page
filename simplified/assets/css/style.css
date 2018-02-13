@@ -1,25 +1,49 @@
 body {
-  background-color: #636e72;
+  background-color: #2d3436;
 }
 
 #page{
   position: absolute;
-  top: 30%; left: 50%;
+  top: 25%; left: 50%;
   transform: translate(-50%,-50%);
   background-color: #f3f3f3;
-  padding: 5%;
-  width: 45%;
+  padding: 2%;
+  width: 50%;
   border-radius: 25px;
 }
 .mainDetails{
-  width:100%;
+  position: relative;
+  /*padding: 2%*/
+	border-bottom: 2px solid #0984e3;
 }
 #headshot{
+  position: relative;
   float: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#yaboy{
+  border-radius: 50%;
 }
 #name{
-  float:center;
+  float:left;
+  padding-top: 1%;
+
 }
-#details{
-  float: right;
+#contactdetails{
+  float: left;
+  padding-top: 2%
+}
+.mainArea {
+  float:left;
+}
+.clear {
+    clear:both;
+    line-height:0;
+}
+#contactList{
+  list-style-type: none;
+}
+li{
+  margin: 10px 0;
 }
