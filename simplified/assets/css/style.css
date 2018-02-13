@@ -27,15 +27,12 @@ body {
 }
 #name{
   float:left;
-  padding-top: 1%;
+  padding-top: 2%;
 
 }
 #contactdetails{
-  float: left;
-  padding-top: 2%
-}
-.mainArea {
-  float:left;
+  float: center;
+  padding-top: 2%;
 }
 .clear {
     clear:both;
@@ -45,5 +42,20 @@ body {
   list-style-type: none;
 }
 li{
-  margin: 10px 0;
+  margin: 1% 0;
+}
+.about{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
+}
+.projects{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
+}
+.education{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
 }
