@@ -1,0 +1,61 @@
+body {
+  background-color: #2d3436;
+}
+
+#page{
+  position: absolute;
+  top: 28%; left: 50%;
+  transform: translate(-50%,-50%);
+  background-color: #f3f3f3;
+  padding: 2%;
+  width: 45%;
+  border-radius: 25px;
+}
+.mainDetails{
+  position: relative;
+  /*padding: 2%*/
+	border-bottom: 2px solid #0984e3;
+}
+#headshot{
+  position: relative;
+  float: left;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+#yaboy{
+  border-radius: 50%;
+}
+#name{
+  float:left;
+  padding-top: 2%;
+
+}
+#contactdetails{
+  float: center;
+  padding-top: 2%;
+}
+.clear {
+    clear:both;
+    line-height:0;
+}
+#contactList{
+  list-style-type: none;
+}
+li{
+  margin: 1% 0;
+}
+.about{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
+}
+.projects{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
+}
+.education{
+  position: relative;
+  /*padding: 2%*/
+  border-bottom: 2px solid #0984e3;
+}
