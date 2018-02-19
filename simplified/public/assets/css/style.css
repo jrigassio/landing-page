@@ -28,7 +28,6 @@ body {
 #name{
   float:left;
   padding-top: 2%;
-
 }
 #contactdetails{
   float: center;
@@ -44,18 +43,7 @@ body {
 li{
   margin: 1% 0;
 }
-.about{
+.segment{
   position: relative;
-  /*padding: 2%*/
-  border-bottom: 2px solid #0984e3;
-}
-.projects{
-  position: relative;
-  /*padding: 2%*/
-  border-bottom: 2px solid #0984e3;
-}
-.education{
-  position: relative;
-  /*padding: 2%*/
   border-bottom: 2px solid #0984e3;
 }
