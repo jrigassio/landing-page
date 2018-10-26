@@ -1,0 +1,11 @@
+p1 {
+    color: navy;
+    font-family: "Arial", sans-serif;
+    font-size: 100px;
+    font-style: italic;
+}
+
+td {
+	font-family: "Times New Roman", serif;
+    font-size: 15px;
+}
