@@ -1,11 +1,19 @@
 p1 {
-    color: navy;
+    color: red;
     font-family: "Arial", sans-serif;
-    font-size: 100px;
+    font-size: 300px;
     font-style: italic;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 2.5s linear;
 }
 
-td {
+@-webkit-keyframes rightThenLeft {
+    0%   {margin-left:0%;}
+    50%  {margin-left:50%;}
+    100% {margin-left:0%;}
+}
+
+th {
 	font-family: "Times New Roman", serif;
-    font-size: 15px;
+    font-size: 30px;
 }
